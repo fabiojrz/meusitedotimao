@@ -13,7 +13,7 @@ header {
     text-align: center;
     width: 100%;
     padding: 30px;
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
 }
 
@@ -21,7 +21,7 @@ nav {
     background-color: beige;
     text-align: center;
     padding: 16px;
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     width: 100%;
 }
@@ -95,7 +95,7 @@ h2 {
 
 .titulosobreclube {
     color: white;
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .fundacaoclube {
@@ -115,7 +115,7 @@ h2 {
 }
 
 .titulotitulos {
-    font-family: fantasy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .bloco4 {
@@ -155,7 +155,7 @@ h2 {
 
 .titulojogos {
     color: black;
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .caixalista {
@@ -172,7 +172,7 @@ h2 {
 
 .tituloelenco {
     color: white;
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .span1 {
