@@ -1,0 +1,641 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    font-family: fantasy;
+    font-size: 35px;
+}
+
+nav {
+    background-color: beige;
+    text-align: center;
+    padding: 16px;
+    font-family: fantasy;
+    font-size: 20px;
+    width: 100%;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bloco1 {
+    display: flex;
+}
+
+.caixa1 {
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+    border-radius: 13px;
+    margin: 5px;
+}
+.img1 {
+    height: 300px;
+    width: 600px;
+    border-radius: 13px;
+    max-width: 100%;
+}
+
+.caixa2 {
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+    border-radius: 13px;
+    font-size: 20px;
+    margin: 5px;
+    overflow: auto;
+}
+
+.bloco2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.caixa3 {
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 1200px;
+    text-align: center;
+    border-radius: 13px;
+ }
+.img2 { 
+    height: 300px;
+    width: 1120px;
+    border-radius: 13px;
+ }
+
+ .seçaosobreclube {
+    background-color: black;
+    width: 100%;
+ }
+
+.titulosobreclube {
+    color: white;
+    font-family: fantasy;
+}
+
+.fundacaoclube {
+    color: white;
+    overflow: auto;
+}
+
+.titulofundaçao {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.sobrefundaçao {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.bloco3 {
+    display: flex;
+}
+
+.titulotitulos {
+    font-family: fantasy;
+}
+
+.bloco4 {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa4 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    height: 400px;
+    width: 700px;
+    border-radius: 10%;
+    overflow: auto;
+}
+
+.caixa5 {
+    height: 300px;
+    width: 600px;
+}
+.img4 {
+    height: 400px;
+    width: 600px;
+    border-radius: 20%;
+    box-shadow: 10px 30px 50px 0.5px ;
+}
+
+.bloco5 {
+    display: inline-block
+}
+
+.hrteste {
+    height: 10px;
+    background-color: black;
+}
+
+.titulojogos {
+    color: black;
+    font-family: fantasy;
+}
+
+.caixalista {
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.seçaoelenco {
+    background-color: #121414;;
+    width: 100%;
+}
+
+.tituloelenco {
+    color: white;
+    font-family: fantasy;
+}
+
+.span1 {
+    margin-right: 92%;
+    font-size: 25px;
+    color: white;
+}
+
+.bloco6 {
+    display: flex;
+}
+
+.caixagoleiro {
+    height: 300px;   
+}
+.caixagoleiro:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}
+.imgcassio {
+    height: 300px;
+}
+.imgcassio:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixagoleiro1 {
+    height: 300px;
+}
+.caixagoleiro1:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}
+.imgcarlosmiguel {
+    height: 300px;
+}
+.imgcarlosmiguel:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.span2 {
+    margin-right: 92%;
+    font-size: 25px;
+    color: white;
+}
+
+.bloco7 {
+    display: flex;
+}
+
+.caixatorres {
+    height: 300px;
+}
+.caixatorres:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}
+.imgtorres {
+    height: 300px;
+}
+.imgtorres:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixaraul {
+    height: 300px;
+}
+.caixaraul:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}
+.imgraul {
+    height: 300px;
+}
+.imgraul:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixacaetano {
+    height: 300px;
+}
+.caixacaetano:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}
+.imgcaetano {
+    height: 300px;
+}
+.imgcaetano:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.span3 {
+    margin-right: 92%;
+    font-size: 25px;
+    color: white;
+}
+
+.bloco8 {
+    display: flex;
+}
+
+.caixamatheuzinho {
+    height: 300px;
+}
+.caixamatheuzinho:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}    
+.imgmatheuzinho {
+    height: 300px;
+}
+.imgmatheuzinho:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixafagner {
+    height: 300px;
+}
+.caixafagner:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}    
+.imgfagner {
+    height: 300px;
+}
+.imgfagner:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixabidu {
+    height: 300px;
+}
+.caixabidu:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}   
+.imgbidu {
+    height: 300px;
+}
+.imgbidu:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.span4 {
+    margin-right: 92%;
+    font-size: 25px;
+    color: white;
+}
+
+.bloco9 {
+    display: flex;
+}
+
+.caixacoronado {
+    height: 300px;
+}
+.caixacoronado:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}    
+.imgcoronado {
+    height: 300px;
+}
+.imgcoronado:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixagarro {
+    height: 300px;
+}
+.caixagarro:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}    
+.imggarro {
+    height: 300px;
+}
+.imggarro:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixagarro {
+    height: 300px;
+}
+.caixagarro:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}    
+.imggarro {
+    height: 300px;
+}
+.imggarro:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixaraniele {
+    height: 300px;
+}
+.caixaraniele:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}    
+.imgraniele {
+    height: 300px;
+}
+.imgraniele:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixapaulinho {
+    height: 300px;
+}
+.caixapaulinho:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}    
+.imgpaulinho {
+    height: 300px;
+}
+.imgpaulinho:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.bloco10 {
+    display: flex;
+}
+
+.caixamosquito {
+    height: 300px;
+}
+.caixamosquito:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}    
+.imgmosquito {
+    height: 300px;
+}
+.imgmosquito:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixapedroraul {
+    height: 300px;
+}
+.caixapedroraul:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}    
+.imgpedroraul {
+    height: 300px;
+}
+.imgpedroraul:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixaromero {
+    height: 300px;
+}
+.caixaromero:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}    
+.imgromero {
+    height: 300px;
+}
+.imgromero:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caixawesley {
+    height: 300px;
+}
+.caixawesley:hover {
+    background-color: black;
+    transition: 0.9s all;
+    padding: 10px;
+    border-radius: 8px;
+}    
+.imgwesley {
+    height: 300px;
+}
+.imgwesley:hover {
+    height: 310px;
+    transition: 1s all;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .bloco1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:1280px) {
+    .bloco3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1400px) {
+    .bloco4 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .seçaoelenco {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .imgpretoebranco {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:390px) {
+    .caixa5 {
+        height: 350px;
+        width: 600px;
+    }
+}
+@media (max-width:390px) {
+    .img4 {
+        height: 350px;
+        width: 380px;
+    }
+}
+
+@media (max-width: 500px) {
+    .bloco6 {
+        flex-wrap: wrap;
+        justify-content: baseline;
+    }
+}
+
+@media (max-width: 660px) {
+    .bloco7 {
+        flex-wrap: wrap;
+        justify-content: baseline;
+    }
+}
+
+@media (max-width: 660px) {
+    .bloco8 {
+        flex-wrap: wrap;
+        justify-content: baseline;
+    }
+}
+
+@media (max-width: 880px) {
+    .bloco9 {
+        flex-wrap: wrap;
+        justify-content: baseline;
+    }
+}
+
+@media (max-width: 880px) {
+    .bloco10 {
+        flex-wrap: wrap;
+        justify-content: baseline;
+    }
+}
